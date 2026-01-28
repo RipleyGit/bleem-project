@@ -26,6 +26,7 @@
     <groupId>site.bleem.cloud</groupId>
     <artifactId>bleem-cloud-nacos</artifactId>
     <packaging>jar</packaging>
+    <version>0.0.1</version>
 
     <properties>
         <!--        <java.version>8</java.version>-->
