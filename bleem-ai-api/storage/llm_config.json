@@ -1,0 +1,9 @@
+{
+  "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1", 
+  "api_key": "sk-148840d44c25411c9cabd4ae380c6fa6",
+  "model": "qwen3-omni-flash",
+  "removebg_api_key": "U7SQcG2xEUtdFNfsUSmUAHjC",
+  "bg_removal_method": "removebg",
+  "qweather_api_key": "afc3d9074f244722932cdf2e94b6a84c",
+  "qweather_api_host": "n557rkkjy3.re.qweatherapi.com"
+}
