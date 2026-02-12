@@ -2,7 +2,7 @@ docker run -d -it \
     --restart=always \
     -e MYSQL_HOST=dsm.bleem.site \
     -e MYSQL_PORT=3306 \
-    -e MYSQL_DB=pg-config \
+    -e MYSQL_DB=pg_config \
     -e DB_USERNAME=nacos \
     -e DB_PASSWORD=nAcos118.34 \
     -p 8848:8848 \
