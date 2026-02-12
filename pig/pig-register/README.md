@@ -1,3 +1,14 @@
+
+## 编译打包
+```
+mvn clean '-Dsurefire.failIfNoSpecifiedTests=false' package
+```
+## docker 镜像打包
+```
+docker build . pig-register:latest
+```
+##  docker 镜像运行
+```
 docker run -d -it \
     --restart=always \
     -e MYSQL_HOST=dsm.bleem.site \
@@ -10,3 +21,4 @@ docker run -d -it \
     -p 9090:8080 \
     --name pig-register \
     pig-register:latest
+```
