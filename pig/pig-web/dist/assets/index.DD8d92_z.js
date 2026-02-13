@@ -1,1 +1,0 @@
-import{O as o}from"./index.BLQPjP0P.js";import{a as r,r as a,q as n,o as u,b as v}from"./vue.DKOcwzik.js";const c=r({name:"check-token",setup(l){const t=a(!1),e=a();n(()=>{s()});const s=()=>{e.value=setInterval(()=>{o(e.value,t.value)},6e4)};return(m,p)=>(u(),v("div"))}});export{c as default};

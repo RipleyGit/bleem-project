@@ -81,12 +81,12 @@ services:
       NACOS_HOST: pig-register
     networks:
       - spring_cloud_default
-  pig-ui:
+  pig-web:
     build:
       context: .
     restart: always
-    container_name: pig-ui
-    image: pig-ui
+    container_name: pig-web
+    image: pig-web
     networks:
       - spring_cloud_default
     external_links:

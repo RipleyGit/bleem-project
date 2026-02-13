@@ -60,3 +60,5 @@ Thumbs.db
 Servers
 .metadata
 .flattened-pom.xml
+/pig-web/dist/
+/pig-web/node_modules/
