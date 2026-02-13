@@ -1,4 +1,8 @@
-FROM registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/java:21-anolis
+#FROM registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/java:21-anolis
+FROM alpine:latest
+
+# 安装依赖
+RUN apk add --no-cache openjdk17-jre curl iputils ncurses vim libcurl bash libstdc++
 
 WORKDIR /pig-gateway
 
