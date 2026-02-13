@@ -62,3 +62,4 @@ Servers
 .flattened-pom.xml
 /pig-web/dist/
 /pig-web/node_modules/
+/pig-web/docker/dist/
