@@ -7,7 +7,11 @@ SET FOREIGN_KEY_CHECKS = 0;
 
 USE `pig`;
 
-
+-- CREATE USER 'app'@'%' IDENTIFIED BY 'a123P456p_';
+--
+-- GRANT ALL PRIVILEGES ON pig_config.* TO 'app'@'%'
+--
+-- GRANT ALL PRIVILEGES ON pig.* TO 'app'@'%'
 -- ----------------------------
 -- Table structure for sys_dept
 -- ----------------------------

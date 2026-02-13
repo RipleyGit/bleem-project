@@ -2,6 +2,8 @@ FROM registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/nginx
 
 COPY ./dist /data
 
+RUN chmod -R 777 /data
+
 RUN rm /etc/nginx/conf.d/default.conf
 
 ADD pig-ui.conf /etc/nginx/conf.d/default.conf

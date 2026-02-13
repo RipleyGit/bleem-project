@@ -1,0 +1,1 @@
+import{s as d}from"./index.Cli_Cq8U.js";const e=t=>d({url:"/admin/dept/tree",method:"get",params:t}),a=t=>d({url:"/admin/dept",method:"post",data:t}),m=t=>d({url:"/admin/dept/"+t,method:"get"}),p=t=>d({url:"/admin/dept/"+t,method:"delete"}),o=t=>d({url:"/admin/dept",method:"put",data:t});export{a,p as b,e as d,m as g,o as p};

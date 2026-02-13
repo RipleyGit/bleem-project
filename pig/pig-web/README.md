@@ -57,7 +57,7 @@ npm install
 ```
 ## 打包
 ```shell
-npm run build
+npm run build:docker
 ```
 ## 直接运行
 ```shell
