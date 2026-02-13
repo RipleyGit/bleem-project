@@ -2,7 +2,7 @@ FROM registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/nginx
 
 COPY ./dist /data
 
-RUN setenforce 0
+RUN chmod -R 777 /data
 
 RUN rm /etc/nginx/conf.d/default.conf
 
