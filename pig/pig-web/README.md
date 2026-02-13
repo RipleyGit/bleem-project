@@ -56,3 +56,18 @@ PIG 提供了详尽的部署文档 👉 [wiki.pig4cloud.com](https://wiki.pig4cl
 npm install
 ```
 ## 打包
+```shell
+npm run build
+```
+## 镜像构建
+```shell
+docker build -t pig-web:latest .
+```
+## 镜像部署
+```shell
+docker run -d -it \
+    --restart=always \
+    -p 9080:80 \
+    --name pig-web \
+    pig-web:latest
+```
