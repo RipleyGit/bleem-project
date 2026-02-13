@@ -59,6 +59,10 @@ npm install
 ```shell
 npm run build
 ```
+## 直接运行
+```shell
+npm run dev
+```
 ## 镜像构建
 ```shell
 docker build -t pig-web:latest .

@@ -1,6 +1,6 @@
 FROM registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/nginx
 
-COPY ../dist /data
+COPY ./dist /data
 
 RUN rm /etc/nginx/conf.d/default.conf
 
