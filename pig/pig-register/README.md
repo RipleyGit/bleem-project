@@ -21,6 +21,14 @@ docker run -d -it \
     -p 9090:8080 \
     --name pig-register \
     pig-register:latest
+
+docker run -d -it \
+    --restart=always \
+    -p 8848:8848 \
+    -p 9848:9848 \
+    -p 9090:8080 \
+    --name pig-register \
+    pig-register:latest
     
 docker logs -f pig-register
 ```
