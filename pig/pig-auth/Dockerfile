@@ -2,8 +2,10 @@
 FROM alpine:latest
 
 # 安装依赖
-RUN apk add --no-cache openjdk17-jre curl iputils ncurses vim libcurl bash libstdc++ fontconfig ttf-dejavu
+RUN apk add --no-cache openjdk17-jre curl iputils ncurses vim libcurl bash libstdc++
 
+RUN apt-get update && apt-get install -y fontconfig fonts-dejavu \
+    && rm -rf /var/lib/apt/lists/*
 WORKDIR /pig-auth
 
 ARG JAR_FILE=target/pig-auth.jar
