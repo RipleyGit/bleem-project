@@ -9,6 +9,7 @@ spring:
       username: @nacos.username@
       password: @nacos.password@
       discovery:
+        ip: dsm.bleem.site
         server-addr: ${NACOS_HOST:dsm.bleem.site}:${NACOS_PORT:8848}
       config:
         server-addr: ${spring.cloud.nacos.discovery.server-addr}

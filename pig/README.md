@@ -69,7 +69,7 @@ pig-ui  -- https://gitee.com/log4j/pig-ui
 
 pig
 ├── pig-boot -- 单体模式启动器[9999]
-├── pig-auth -- 授权服务提供[3000]
+├── pig-auth -- 授权服务提供[5000]
 └── pig-common -- 系统公共模块
      ├── pig-common-bom -- 全局依赖管理控制
      ├── pig-common-core -- 公共工具类核心包

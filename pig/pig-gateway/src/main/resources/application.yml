@@ -9,6 +9,7 @@ spring:
       username: @nacos.username@
       password: @nacos.password@
       discovery:
+        ip: dsm.bleem.site
         server-addr: ${NACOS_HOST:dsm.bleem.site}:${NACOS_PORT:8848}
         watch:
           enabled: true
@@ -19,7 +20,5 @@ spring:
     import:
       - optional:nacos:application-@profiles.active@.yml
       - optional:nacos:${spring.application.name}-@profiles.active@.yml
-
-
 
 

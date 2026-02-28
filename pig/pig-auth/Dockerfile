@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # 安装依赖
-RUN apk add --no-cache openjdk17-jre curl iputils ncurses vim libcurl bash libstdc++
+RUN apk add --no-cache openjdk17-jre curl iputils ncurses vim libcurl bash libstdc++ fontconfig ttf-dejavu
 
 WORKDIR /pig-auth
 
@@ -10,7 +10,7 @@ ARG JAR_FILE=target/pig-auth.jar
 
 COPY ${JAR_FILE} app.jar
 
-EXPOSE 3000
+EXPOSE 5000
 
 ENV TZ=Asia/Shanghai JAVA_OPTS="-Xms128m -Xmx256m -Djava.security.egd=file:/dev/./urandom"
 
